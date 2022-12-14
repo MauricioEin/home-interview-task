@@ -1,0 +1,28 @@
+html{
+    font-family: OpenSans-regular;
+    color:$txtClr;
+}
+
+body{
+    background-color: $dbClrMain;
+    max-width: 1440px;
+    margin:auto;
+    padding:75px 80px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Raleway-bold;
+    margin:0;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    margin:0;
+}
+a{
+    color:$txtClr;
+    text-decoration: none;
+}

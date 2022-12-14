@@ -1,0 +1,27 @@
+// flex helpers
+.flex {
+    display: flex;
+
+    &.space-between {
+        justify-content: space-between;
+    }
+}
+// font-size
+
+.smaller{
+    font-size:.875rem;
+}
+.larger{
+    font-size:1.25rem;
+}
+// call-to-action
+
+.call-to-action {
+    border-radius: 999px;
+    color:$txtClr;
+    font-family: Raleway-bold;
+    width: 280px;
+    height: 56px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(152deg, $grdClr1 0%, $grdClr2 100%);
+}

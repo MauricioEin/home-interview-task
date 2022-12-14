@@ -1,5 +1,5 @@
 <template>
-    <section class="midlle-banner flex">
+    <section class="middle-banner flex">
         <div class="img-container">
             <img src="../assets/imgs/illustration-stay-productive.png" />
         </div>
@@ -10,7 +10,7 @@
                 storage needs.</p>
             <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email
                 attachments required.</p>
-                <a class="highlighted">See how Fylo works +svg</a>
+            <a class="highlighted">See how Fylo works <img src="../assets/svgs/icon-arrow.svg" /></a>
         </div>
 
 

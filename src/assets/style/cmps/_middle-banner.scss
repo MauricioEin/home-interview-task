@@ -1,3 +1,29 @@
-.middle-banner{
+.middle-banner {
     align-items: center;
+    gap: 4rem;
+    margin-bottom: 180px;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+
+    .img-container {
+        width: fit-content;
+        height: fit-content;
+
+        img {
+            width: 615px;
+            height: 464px;
+        }
+    }
+
+    h1 {
+        line-height: 50px;
+        margin-bottom: 1.25rem;
+        max-width: 450px;
+    }
+
+    p {
+        margin-bottom: 1.125rem;
+        line-height: 24px;
+        
+    }
 }

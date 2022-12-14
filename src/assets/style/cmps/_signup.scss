@@ -1,0 +1,35 @@
+.signup {
+    background-color: $dbClrBg;
+    position: absolute;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    left:290px;
+    right:290px;
+    bottom:-110px;
+    z-index:20;
+    text-align: center;
+    padding: 2.5rem 5rem;
+
+    h2{
+        margin-bottom: 1rem;
+    }
+
+    p{
+        margin-bottom: 2rem;
+    }
+
+    .signup-input{
+        input{
+            flex-basis:67%;
+            border-radius: 999px;
+            padding-inline-start: 2.25rem;
+            outline: none;
+        }
+        .call-to-action{
+            flex-basis: 28%;
+            cursor: pointer;
+            min-width:fit-content;
+        }
+    }
+
+}

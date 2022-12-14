@@ -2,12 +2,20 @@ html{
     font-family: OpenSans-regular;
     color:$txtClr;
 }
-
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: $dbClrMain;
     max-width: 1440px;
     margin:auto;
-    padding:75px 80px;
+    padding-top:75px;
+}
+
+.app-main, .app-header, .app-footer{
+    padding-inline-start: 80px;
+    padding-inline-end: 80px;
+    position:relative;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -18,7 +26,9 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 2.5rem;
 }
-
+h2{
+    font-size: 2rem;
+}
 p{
     margin:0;
 }

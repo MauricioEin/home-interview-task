@@ -1,11 +1,13 @@
 
 <template>
   <app-header />
-  <app-hero />
-  <feature-list />
-  <middle-banner />
-  <review-list />
-  <signup />
+  <main class="app-main">
+    <app-hero />
+    <feature-list />
+    <middle-banner />
+    <review-list />
+    <signup />
+  </main>
   <app-footer />
 </template>
 

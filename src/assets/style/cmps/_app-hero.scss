@@ -1,24 +1,27 @@
 .app-hero {
     width: 50vw;
     max-width: 720px;
-    margin:auto;
-    padding-top:50px;
+    margin: auto;
+    padding-top: 50px;
     text-align: center;
 
     .img-container {
         width: 100%;
+        margin-bottom: 2.25rem;
 
         img {
             width: 100%;
         }
     }
-h1{
-    margin-bottom: 3rem;
-    line-height: 60px;
-}
-    p{
-        margin-inline-end:10%;
-        margin-inline-start:10%;
+
+    h1 {
+        margin-bottom: 3rem;
+        line-height: 60px;
+    }
+
+    p {
+        width: 590px;
+        margin: auto;
         line-height: 30px;
         margin-bottom: 2rem;
     }

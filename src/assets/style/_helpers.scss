@@ -2,6 +2,10 @@
 .flex {
     display: flex;
 
+    &.column{
+        flex-direction: column;
+    }
+
     &.space-between {
         justify-content: space-between;
     }
@@ -25,3 +29,7 @@
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
     background-image: linear-gradient(152deg, $grdClr1 0%, $grdClr2 100%);
 }
+
+.highlighted{
+    color:$grdClr1;
+    text-decoration: underline;}

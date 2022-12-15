@@ -3,4 +3,9 @@
     width:100%;
     padding-bottom: 100px;
     padding-top:200px;
+
+    .footer-info{
+        display:grid;
+        grid-template-columns: 4fr 2fr 1fr 1fr 1fr;
+    }
 }
